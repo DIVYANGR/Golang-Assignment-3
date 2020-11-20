@@ -77,8 +77,8 @@ func handleRequests() {
 
 func main() {
 	Articles = []Article{
-		Article{Id: "1", Title: "Hello", Desc: "Article Description", Content: "Article Content"},
-		Article{Id: "2", Title: "Hello 2", Desc: "Article Description", Content: "Article Content"},
+		Article{Id: "1", Title: "Health", Desc: "Health is wealth", Content: "Article Content"},
+		Article{Id: "2", Title: "Personality", Desc: "Don't judge book by it's cover", Content: "Article Content"},
 	}
 	handleRequests()
 }
